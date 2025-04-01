@@ -9,12 +9,12 @@
       "en": "Oizumi Ikegami Lab (Link)"
     },
     "field": {
-      "ja": "専門分野：情報論, 群知能",
-      "en": "Field of Expertise: Information Theory, Collective Intelligence"
+      "ja": "専門分野：神経科学, 情報論, 群知能",
+      "en": "Field of Expertise: Neuro Science, Information Theory, Collective Intelligence"
     },
     "affiliation": {
-      "ja": "東京大学大学院 総合文化研究科 広域科学専攻 博士課程１年",
-      "en": "Graduate School of Arts and Sciences, Department of Advanced Science, University of Tokyo, First year Ph.D. Candidate"
+      "ja": "東京大学大学院 総合文化研究科 広域科学専攻 博士課程 在学中",
+      "en": "Graduate School of Arts and Sciences, Department of Advanced Science, University of Tokyo, Ph.D. Candidate"
     },
     "contact": {
       "ja": "ilya-horiguchi[at]g.ecc.u-tokyo.ac.jp",
@@ -29,24 +29,24 @@
         "en": "March 2023: Bachelor of Engineering in Mathematical Engineering, University of Tokyo"
       },
       {
-        "ja": "2023年4月：東京大学大学院 総合文化研究科 広域科学専攻 卒業",
-        "en": "April 2023: Graduate School of Arts and Sciences, Department of Advanced Science, University of Tokyo"
+        "ja": "2025年3月：東京大学大学院 総合文化研究科 広域科学専攻（修士課程）修了（優秀卒業生賞を受賞）",
+        "en": "March 2025: Master’s Degree in Advanced Science, Graduate School of Arts and Sciences, University of Tokyo (Awarded Outstanding Graduate Student Award)"
       },
       {
-        "ja": "2024年5月：同大学院 在学中",
-        "en": "April 2025: Enrolled in the Graduate School of Arts and Sciences, Department of Advanced Science, University of Tokyo"
+        "ja": "2025年4月〜：同大学院 博士課程 在学中（修了式にて学生代表を務める）",
+        "en": "April 2025 – Present: Ph.D. Program, Graduate School of Arts and Sciences, University of Tokyo (Served as the student representative at the graduation ceremony)"
       }
     ]
   },
 
   "skills": {
     "programming": {
-      "ja": "Python（PyTorch）",
-      "en": "Python (especially implementing neural networks using PyTorch)"
+      "ja": "Python（特にPyTorchを用いたニューラルネットワーク実装）、C、C++、Java、Matlab",
+      "en": "Python (especially neural network implementations with PyTorch), C, C++, Java, Matlab"
     },
     "tools": {
-      "ja": "機械学習、EEG分析、自然言語処理、応用情報技術者",
-      "en": "Machine Learning, EEG Analysis, Natural Language Processing, Data Extraction & Processing"
+      "ja": "機械学習、EEG分析、自然言語処理、大規模分散学習（PyTorch DDP）、高性能計算（TSUBAME利用）、応用情報技術者",
+      "en": "Machine Learning, EEG Analysis, Natural Language Processing, Large-scale Distributed Training (PyTorch DDP), High-Performance Computing (TSUBAME), Applied Information Technology Engineer"
     },
     "certificates": {
       "ja": "英検1級、応用情報技術者試験",
@@ -111,7 +111,7 @@
     "domesticConferences": [
       {
         "ja": "2023/06 堀口維里優、芦原佑太、山川宏：「脳型AIの基盤となる画像からの解剖学的神経投射の抽出」人工知能学会全国大会（口頭発表・熊本）",
-        "en": "June 2023: Ilya Horiguchi, Yuta Ashihara, Hiroshi Yamakawa: \"Extraction of Anatomical Neural Projections from Images...\" (Oral, JSAI, Kumamoto)"
+        "en": "June 2023: Ilya Horiguchi, Yuta Ashihara, Hiroshi Yamakawa: \"Extraction of Anatomical Neural Projections from Images as a Basis for Brain-like AI\" (Oral, JSAI, Kumamoto)"
       },
       {
         "ja": "2024/05 堀口維里優、吉田崇英、池上高志：「LLMエージェント同士の自然言語による戦略進化」人工知能学会全国大会（ポスター発表・静岡）",
@@ -120,20 +120,24 @@
     ],
     "internationalConferences": [
       {
-        "ja": "2024/07 Ilya Horiguchi, Takahide Yoshida, Takashi Ikegami, ... ASSC 27（査読有・東京）",
-        "en": "2024/07 Ilya Horiguchi, Takahide Yoshida, Takashi Ikegami, ... ASSC 27（peer-reviewed, Tokyo）"
+        "ja": "2024/07: Ilya Horiguchi, Takahide Yoshida, Takashi Ikegami: 「Strategic Norm Emergence in Large Language Model Agents: An Evolutionary Approach to Social Norm Formation」 (査読有・ASSC 27、東京)",
+        "en": "July 2024: Ilya Horiguchi, Takahide Yoshida, Takashi Ikegami: \"Strategic Norm Emergence in Large Language Model Agents: An Evolutionary Approach to Social Norm Formation\" (peer-reviewed, ASSC 27, Tokyo)"
       },
       {
-        "ja": "2024/07 Ilya Horiguchi, Norihiro Maruyama, ... ALIFE 2024（査読有・コペンハーゲン）",
-        "en": "2024/07 Ilya Horiguchi, Norihiro Maruyama, ... ALIFE 2024（peer-reviewed, Copenhagen）"
+        "ja": "2024/07: Ilya Horiguchi, Norihiro Maruyama, Shigeto Dobata, Michael Crosscombe, Takashi Ikegami: 「Quantifying Autonomy in Ant Colonies Using Non-Trivial Information Closure」 (査読有・ALIFE 2024、コペンハーゲン)",
+        "en": "July 2024: Ilya Horiguchi, Norihiro Maruyama, Shigeto Dobata, Michael Crosscombe, Takashi Ikegami: \"Quantifying Autonomy in Ant Colonies Using Non-Trivial Information Closure\" (peer-reviewed, ALIFE 2024, Copenhagen)"
       },
       {
-        "ja": "2024/07 Michael Crosscombe, Ilya Horiguchi, ... ALIFE 2024（査読有・コペンハーゲン）",
-        "en": "2024/07 Michael Crosscombe, Ilya Horiguchi, ... ALIFE 2024（peer-reviewed, Copenhagen）"
+        "ja": "2024/07: Michael Crosscombe, Ilya Horiguchi, Norihiro Maruyama, Shigeto Dobata, Takashi Ikegami: 「A Simulation Environment for the Neuroevolution of Ant Colony Dynamics」 (査読有・ALIFE 2024、コペンハーゲン)",
+        "en": "July 2024: Michael Crosscombe, Ilya Horiguchi, Norihiro Maruyama, Shigeto Dobata, Takashi Ikegami: \"A Simulation Environment for the Neuroevolution of Ant Colony Dynamics\" (peer-reviewed, ALIFE 2024, Copenhagen)"
       },
       {
-        "ja": "2025/03 Ilya Horiguchi, Michael Crosscombe, ... IEEE SSCI 2025（査読有・トロンヘイム）",
-        "en": "2025/03 Ilya Horiguchi, Michael Crosscombe, ... IEEE SSCI 2025（peer-reviewed, Trondheim）"
+        "ja": "2025/01: Ilya Horiguchi, Michael Crosscombe, Shigeto Dobata, Takashi Ikegami: 「Quantifying Ant Colony Dynamics and Role Transmission Using Information Theory and Gromov-Wasserstein Optimal Transport」 (査読有・AROB 2025、別府)",
+        "en": "January 2025: Ilya Horiguchi, Michael Crosscombe, Shigeto Dobata, Takashi Ikegami: \"Quantifying Ant Colony Dynamics and Role Transmission Using Information Theory and Gromov-Wasserstein Optimal Transport\" (peer-reviewed, AROB 2025, Beppu)"
+      },
+      {
+        "ja": "2025/03: Ilya Horiguchi, Michael Crosscombe, Takashi Ikegami: 「Impact of Communication Masking on Problem Solving in LLM Agent Networks」 (査読有・IEEE SSCI 2025、トロンヘイム)",
+        "en": "March 2025: Ilya Horiguchi, Michael Crosscombe, Takashi Ikegami: \"Impact of Communication Masking on Problem Solving in LLM Agent Networks\" (peer-reviewed, IEEE SSCI 2025, Trondheim)"
       }
     ]
   },
@@ -150,7 +154,7 @@
       },
       {
         "ja": "2024/10 知能社会国際卓越大学院（IIW）卓越RA 180千円/月",
-        "en": "2024/10 International Institute for Artificial Intelligence and Society (IIW) Research Assistant 180,000yen/month"
+        "en": "2024/10 International Institute for Artificial Intelligence and Society (IIW) Research Assistant 180,000 yen/month"
       },
       {
         "ja": "2024/10 BCI Award 2024 上位12プロジェクト ノミネート",
@@ -163,10 +167,14 @@
       {
         "ja": "2024/12 科学技術融合振興財団（FOST）助成事業 285千円 (2024年12月 - 2025年2月)",
         "en": "2024/12 Foundation for the Fusion of Science and Technology (FOST) Grant, 285,000 yen (Dec. 2024 – Feb. 2025)"
+      },
+      {
+        "ja": "2025/03 大学院修了時にOutstanding Graduate Student Awardを受賞、修了式の学生代表を務める",
+        "en": "March 2025: Received the Outstanding Graduate Student Award upon completing Master's Degree, served as the student representative at the graduation ceremony"
       }
     ]
   },
-  
+
   "ui": {
     "languageSwitch": {
       "ja": "English",
