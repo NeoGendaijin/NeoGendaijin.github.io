@@ -174,7 +174,7 @@
     },
     "menu": {
       "home": {
-        "ja": "ホーム",
+        "ja": "HOME",
         "en": "Home"
       },
       "profile": {
@@ -182,15 +182,15 @@
         "en": "Profile"
       },
       "experience": {
-        "ja": "研究・経歴",
+        "ja": "Research & Experience",
         "en": "Research & Experience"
       },
       "publications": {
-        "ja": "発表・論文",
+        "ja": "Publications",
         "en": "Publications"
       },
       "awards": {
-        "ja": "受賞・奨学金",
+        "ja": "Awards & Scholarships",
         "en": "Awards & Scholarships"
       }
     },
