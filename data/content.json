@@ -1,0 +1,242 @@
+{
+  "profile": {
+    "name": {
+      "ja": "堀口 維里優",
+      "en": "Ilya Horiguchi"
+    },
+    "labLinkText": {
+      "ja": "大泉研究室 (リンク)",
+      "en": "Oizumi Ikegami Lab (Link)"
+    },
+    "field": {
+      "ja": "専門分野：情報論, 群知能",
+      "en": "Field of Expertise: Information Theory, Collective Intelligence"
+    },
+    "affiliation": {
+      "ja": "東京大学大学院 総合文化研究科 広域科学専攻 博士課程１年",
+      "en": "Graduate School of Arts and Sciences, Department of Advanced Science, University of Tokyo, First year Ph.D. Candidate"
+    },
+    "contact": {
+      "ja": "ilya-horiguchi[at]g.ecc.u-tokyo.ac.jp",
+      "en": "ilya-horiguchi[at]g.ecc.u-tokyo.ac.jp"
+    }
+  },
+
+  "education": {
+    "items": [
+      {
+        "ja": "2023年3月：東京大学 工学部計数工学科 卒業",
+        "en": "March 2023: Bachelor of Engineering in Mathematical Engineering, University of Tokyo"
+      },
+      {
+        "ja": "2023年4月：東京大学大学院 総合文化研究科 広域科学専攻 入学",
+        "en": "April 2023: Enrolled in the Graduate School of Arts and Sciences, Department of Advanced Science, University of Tokyo"
+      },
+      {
+        "ja": "2024年4月：同大学院 在学中",
+        "en": "April 2024: Currently enrolled in the same program"
+      }
+    ]
+  },
+
+  "skills": {
+    "programming": {
+      "ja": "Python（PyTorch）",
+      "en": "Python (especially implementing neural networks using PyTorch)"
+    },
+    "tools": {
+      "ja": "機械学習、EEG分析、自然言語処理、応用情報技術者",
+      "en": "Machine Learning, EEG Analysis, Natural Language Processing, Data Extraction & Processing"
+    },
+    "certificates": {
+      "ja": "英検1級、応用情報技術者試験",
+      "en": "Applied Information Technology Engineer, Eiken Grade 1"
+    }
+  },
+
+  "experience": {
+    "items": [
+      {
+        "period_ja": "2024/1 - 現在",
+        "period_en": "January 2024 - Present",
+        "place_ja": "Araya – X Communication リサーチインターン (リンク)",
+        "place_en": "Araya – X Communication Research Intern (link)",
+        "contents": {
+          "ja": [
+            "EEG脳波データからテキストやスピーチを再構成する研究",
+            "最新手法論文の再現実装"
+          ],
+          "en": [
+            "Research on reconstructing text and speech from EEG brainwave data",
+            "Reproducing implementations of recent method papers"
+          ]
+        }
+      },
+      {
+        "period_ja": "2023/6 - 現在",
+        "period_en": "June 2023 - Present",
+        "place_ja": "AutoRes プロジェクト リサーチインターン (リンク)",
+        "place_en": "AutoRes Project Research Intern (link)",
+        "contents": {
+          "ja": [
+            "LLMを使用した論文データベースからの情報抽出",
+            "研究活動の自動化パイプラインの構築"
+          ],
+          "en": [
+            "Extracting information from paper databases using LLMs",
+            "Building automation pipelines for research activities"
+          ]
+        }
+      },
+      {
+        "period_ja": "2022/10 - 2024/4",
+        "period_en": "October 2022 - April 2024",
+        "place_ja": "松尾研 – 研究インターン (リンク)",
+        "place_en": "Matsuo Laboratory – Research Intern (link)",
+        "contents": {
+          "ja": [
+            "神経科学文献から解剖学的神経投射情報の抽出",
+            "画像処理・物体検出"
+          ],
+          "en": [
+            "Extracting anatomical neural projection information from neuroscience literature",
+            "Image processing and object detection"
+          ]
+        }
+      }
+    ]
+  },
+
+  "publications": {
+    "domesticConferences": [
+      {
+        "ja": "2023/06 堀口維里優、芦原佑太、山川宏：「脳型AIの基盤となる画像からの解剖学的神経投射の抽出」人工知能学会全国大会（口頭発表・熊本）",
+        "en": "June 2023: Ilya Horiguchi, Yuta Ashihara, Hiroshi Yamakawa: \"Extraction of Anatomical Neural Projections from Images...\" (Oral, JSAI, Kumamoto)"
+      },
+      {
+        "ja": "2024/05 堀口維里優、吉田崇英、池上高志：「LLMエージェント同士の自然言語による戦略進化」人工知能学会全国大会（ポスター発表・静岡）",
+        "en": "May 2024: Ilya Horiguchi, Takahide Yoshida, Takashi Ikegami: \"Strategic Evolution in LLM Agents via Natural Language\" (Poster, JSAI, Shizuoka)"
+      }
+    ],
+    "internationalConferences": [
+      {
+        "ja": "2024/07 Ilya Horiguchi, Takahide Yoshida, Takashi Ikegami, ... ASSC 27（査読有・東京）",
+        "en": "2024/07 Ilya Horiguchi, Takahide Yoshida, Takashi Ikegami, ... ASSC 27（peer-reviewed, Tokyo）"
+      },
+      {
+        "ja": "2024/07 Ilya Horiguchi, Norihiro Maruyama, ... ALIFE 2024（査読有・コペンハーゲン）",
+        "en": "2024/07 Ilya Horiguchi, Norihiro Maruyama, ... ALIFE 2024（peer-reviewed, Copenhagen）"
+      },
+      {
+        "ja": "2024/07 Michael Crosscombe, Ilya Horiguchi, ... ALIFE 2024（査読有・コペンハーゲン）",
+        "en": "2024/07 Michael Crosscombe, Ilya Horiguchi, ... ALIFE 2024（peer-reviewed, Copenhagen）"
+      },
+      {
+        "ja": "2025/03 Ilya Horiguchi, Michael Crosscombe, ... IEEE SSCI 2025（査読有・トロンヘイム）",
+        "en": "2025/03 Ilya Horiguchi, Michael Crosscombe, ... IEEE SSCI 2025（peer-reviewed, Trondheim）"
+      }
+    ]
+  },
+
+  "awards": {
+    "items": [
+      {
+        "ja": "2023/06 - 知能社会国際卓越大学院（IIW）プログラム生",
+        "en": "2023/06 International Institute for Artificial Intelligence and Society (IIW) Program"
+      },
+      {
+        "ja": "2024/07 ALIFE2024 Student Scholarship",
+        "en": "2024/07 ALIFE2024 Student Scholarship"
+      },
+      {
+        "ja": "2024/10 知能社会国際卓越大学院（IIW）卓越RA 180千円/月",
+        "en": "2024/10 International Institute for Artificial Intelligence and Society (IIW) Research Assistant 180,000yen/month"
+      },
+      {
+        "ja": "2024/10 BCI Award 2024 上位12プロジェクト ノミネート",
+        "en": "2024/10 BCI Award 2024 Nominees for Top 12"
+      },
+      {
+        "ja": "2024/11 人工知能学会 全国大会2024 優秀賞",
+        "en": "2024/11 Awarded the Excellent Poster Award at the 2024 Annual Conference of the Japanese Society for Artificial Intelligence"
+      },
+      {
+        "ja": "2024/12 科学技術融合振興財団（FOST）助成事業 285千円 (2024年12月 - 2025年2月)",
+        "en": "2024/12 Foundation for the Fusion of Science and Technology (FOST) Grant, 285,000 yen (Dec. 2024 – Feb. 2025)"
+      }
+    ]
+  },
+  
+  "ui": {
+    "languageSwitch": {
+      "ja": "English",
+      "en": "日本語"
+    },
+    "menu": {
+      "home": {
+        "ja": "ホーム",
+        "en": "Home"
+      },
+      "profile": {
+        "ja": "プロフィール",
+        "en": "Profile"
+      },
+      "experience": {
+        "ja": "研究・経歴",
+        "en": "Research & Experience"
+      },
+      "publications": {
+        "ja": "発表・論文",
+        "en": "Publications"
+      },
+      "awards": {
+        "ja": "受賞・奨学金",
+        "en": "Awards & Scholarships"
+      }
+    },
+    "sections": {
+      "education": {
+        "ja": "学歴",
+        "en": "Education"
+      },
+      "skills": {
+        "ja": "スキル",
+        "en": "Skills"
+      },
+      "programming": {
+        "ja": "プログラミング",
+        "en": "Programming"
+      },
+      "tools": {
+        "ja": "ツール・技術",
+        "en": "Tools & Technologies"
+      },
+      "certificates": {
+        "ja": "資格",
+        "en": "Certificates"
+      },
+      "experience": {
+        "ja": "研究・職歴",
+        "en": "Research & Work Experience"
+      },
+      "domesticConferences": {
+        "ja": "国内学会",
+        "en": "Domestic Conferences"
+      },
+      "internationalConferences": {
+        "ja": "国際学会",
+        "en": "International Conferences"
+      },
+      "awards": {
+        "ja": "受賞・奨学金",
+        "en": "Awards & Scholarships"
+      }
+    },
+    "footer": {
+      "copyright": {
+        "ja": "© 2025 堀口 維里優. All Rights Reserved.",
+        "en": "© 2025 Ilya Horiguchi. All Rights Reserved."
+      }
+    }
+  }
+}
