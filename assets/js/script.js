@@ -39,13 +39,37 @@ async function initApp() {
  * Load content data
  */
 async function loadContentData() {
-  try {
-    const response = await fetch('data/content.json?ts=' + Date.now()); // キャッシュ防止つき
-    contentData = await response.json();
-    updatePageContent();
-  } catch (error) {
-    console.error('Failed to load content.json:', error);
-  }
+  return new Promise((resolve, reject) => {
+    // Use XMLHttpRequest for better compatibility with local file access
+    const xhr = new XMLHttpRequest();
+    xhr.overrideMimeType("application/json");
+    xhr.open('GET', 'data/content.json?ts=' + Date.now(), true); // Cache busting
+    
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState === 4) {
+        if (xhr.status === 200 || xhr.status === 0) { // 0 for local files
+          try {
+            contentData = JSON.parse(xhr.responseText);
+            updatePageContent();
+            resolve();
+          } catch (e) {
+            console.error('Error parsing content.json:', e);
+            reject(e);
+          }
+        } else {
+          console.error('Failed to load content.json. Status:', xhr.status);
+          reject(new Error('Failed to load content.json'));
+        }
+      }
+    };
+    
+    xhr.onerror = function() {
+      console.error('Request error while loading content.json');
+      reject(new Error('Request error'));
+    };
+    
+    xhr.send(null);
+  });
 }
 
 /**
@@ -130,6 +154,10 @@ function updateSectionTitles() {
     document.getElementById('awards-title').textContent = sections.awards[currentLang];
   }
   
+  if (document.getElementById('scholarships-title')) {
+    document.getElementById('scholarships-title').textContent = sections.scholarships[currentLang];
+  }
+  
   // Update sub-section titles
   if (document.getElementById('programming-title')) {
     document.getElementById('programming-title').textContent = sections.programming[currentLang];
@@ -149,6 +177,10 @@ function updateSectionTitles() {
   
   if (document.getElementById('international-title')) {
     document.getElementById('international-title').textContent = sections.internationalConferences[currentLang];
+  }
+  
+  if (document.getElementById('journals-title')) {
+    document.getElementById('journals-title').textContent = sections.journals[currentLang];
   }
 }
 
@@ -280,10 +312,15 @@ function updatePublications() {
   if (domesticList && publicationsData.domesticConferences) {
     domesticList.innerHTML = '';
     
-    publicationsData.domesticConferences.forEach(item => {
+    publicationsData.domesticConferences.forEach((item, index) => {
       const li = document.createElement('li');
       li.className = 'publication-item';
-      li.textContent = item[currentLang];
+      
+      // Create text with underlined author name
+      const text = item[currentLang];
+      const highlightedText = text.replace(/Ilya Horiguchi|堀口\s?維里優/g, '<u>$&</u>');
+      
+      li.innerHTML = highlightedText;
       domesticList.appendChild(li);
     });
   }
@@ -293,11 +330,34 @@ function updatePublications() {
   if (internationalList && publicationsData.internationalConferences) {
     internationalList.innerHTML = '';
     
-    publicationsData.internationalConferences.forEach(item => {
+    publicationsData.internationalConferences.forEach((item, index) => {
       const li = document.createElement('li');
       li.className = 'publication-item';
-      li.textContent = item[currentLang];
+      
+      // Create text with underlined author name
+      const text = item[currentLang];
+      const highlightedText = text.replace(/Ilya Horiguchi|堀口\s?維里優/g, '<u>$&</u>');
+      
+      li.innerHTML = highlightedText;
       internationalList.appendChild(li);
+    });
+  }
+  
+  // Update journals
+  const journalsList = document.getElementById('journals-list');
+  if (journalsList && publicationsData.journals) {
+    journalsList.innerHTML = '';
+    
+    publicationsData.journals.forEach((item, index) => {
+      const li = document.createElement('li');
+      li.className = 'publication-item';
+      
+      // Create text with underlined author name
+      const text = item[currentLang];
+      const highlightedText = text.replace(/Ilya Horiguchi|堀口\s?維里優/g, '<u>$&</u>');
+      
+      li.innerHTML = highlightedText;
+      journalsList.appendChild(li);
     });
   }
 }
@@ -308,15 +368,29 @@ function updatePublications() {
 function updateAwards() {
   const awardsData = contentData.awards;
   const awardsList = document.getElementById('awards-list');
+  const scholarshipsList = document.getElementById('scholarships-list');
   
-  if (awardsList && awardsData.items) {
+  // Update awards
+  if (awardsList && awardsData.awards) {
     awardsList.innerHTML = '';
     
-    awardsData.items.forEach(item => {
+    awardsData.awards.forEach((item, index) => {
       const li = document.createElement('li');
       li.className = 'award-item';
-      li.textContent = item[currentLang];
+      li.textContent = `${item[currentLang]}`;
       awardsList.appendChild(li);
+    });
+  }
+  
+  // Update scholarships
+  if (scholarshipsList && awardsData.scholarships) {
+    scholarshipsList.innerHTML = '';
+    
+    awardsData.scholarships.forEach((item, index) => {
+      const li = document.createElement('li');
+      li.className = 'award-item';
+      li.textContent = `${item[currentLang]}`;
+      scholarshipsList.appendChild(li);
     });
   }
 }

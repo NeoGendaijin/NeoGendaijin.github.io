@@ -10,7 +10,7 @@
     },
     "field": {
       "ja": "専門分野：神経科学, 情報論, 群知能",
-      "en": "Field of Expertise: Neuro Science, Information Theory, Collective Intelligence"
+      "en": "Field : Neuro Science, Information Theory, Collective Intelligence"
     },
     "affiliation": {
       "ja": "東京大学大学院 総合文化研究科 広域科学専攻 博士課程 在学中",
@@ -139,11 +139,35 @@
         "ja": "2025/03: Ilya Horiguchi, Michael Crosscombe, Takashi Ikegami: 「Impact of Communication Masking on Problem Solving in LLM Agent Networks」 (査読有・IEEE SSCI 2025、トロンヘイム)",
         "en": "March 2025: Ilya Horiguchi, Michael Crosscombe, Takashi Ikegami: \"Impact of Communication Masking on Problem Solving in LLM Agent Networks\" (peer-reviewed, IEEE SSCI 2025, Trondheim)"
       }
+    ],
+    "journals": [
+      {
+        "ja": "なし",
+        "en": "none"
+      }
     ]
   },
 
   "awards": {
-    "items": [
+    "awards": [
+      {
+        "ja": "2024/10 BCI Award 2024 上位12プロジェクト ノミネート",
+        "en": "2024/10 BCI Award 2024 Nominees for Top 12"
+      },
+      {
+        "ja": "2024/11 人工知能学会 全国大会2024 優秀賞",
+        "en": "2024/11 Awarded the Excellent Poster Award at the 2024 Annual Conference of the Japanese Society for Artificial Intelligence"
+      },
+      {
+        "ja": "2025/03 修士論文が広域科学奨励賞を受賞",
+        "en": "March 2025: Received the Outstanding Graduate Student Award upon completing Master's Degree"
+      },
+      {
+        "ja": "2025/03 総合文化研究科の卒業生代表を務める（総代）",
+        "en": "March 2025: Served as the student representative at the graduation ceremony"
+      }
+    ],
+    "scholarships": [
       {
         "ja": "2023/06 - 知能社会国際卓越大学院（IIW）プログラム生",
         "en": "2023/06 International Institute for Artificial Intelligence and Society (IIW) Program"
@@ -157,20 +181,12 @@
         "en": "2024/10 International Institute for Artificial Intelligence and Society (IIW) Research Assistant 180,000 yen/month"
       },
       {
-        "ja": "2024/10 BCI Award 2024 上位12プロジェクト ノミネート",
-        "en": "2024/10 BCI Award 2024 Nominees for Top 12"
-      },
-      {
-        "ja": "2024/11 人工知能学会 全国大会2024 優秀賞",
-        "en": "2024/11 Awarded the Excellent Poster Award at the 2024 Annual Conference of the Japanese Society for Artificial Intelligence"
-      },
-      {
-        "ja": "2024/12 科学技術融合振興財団（FOST）助成事業 285千円 (2024年12月 - 2025年2月)",
+        "ja": "2024/12 科学技術融合振興財団（FOST）助成事業 285千円 (2025年2月 - 2026年2月)",
         "en": "2024/12 Foundation for the Fusion of Science and Technology (FOST) Grant, 285,000 yen (Dec. 2024 – Feb. 2025)"
       },
       {
-        "ja": "2025/03 大学院修了時にOutstanding Graduate Student Awardを受賞、修了式の学生代表を務める",
-        "en": "March 2025: Received the Outstanding Graduate Student Award upon completing Master's Degree, served as the student representative at the graduation ceremony"
+        "ja": "2025/4 次世代知能社会を先導する高度AI人材育成（BOOST NAIS）プログラム生 280千円/月",
+        "en": "2025/4 Advanced AI Talent Development to Lead the Next-Generation Intelligent Society (BOOST NAIS), 280,000 yen/month"
       }
     ]
   },
@@ -190,16 +206,20 @@
         "en": "Profile"
       },
       "experience": {
-        "ja": "研究・経歴",
-        "en": "Research & Experience"
+        "ja": "経歴",
+        "en": "Experience"
       },
       "publications": {
         "ja": "発表・論文",
         "en": "Publications"
       },
       "awards": {
-        "ja": "受賞・奨学金",
-        "en": "Awards & Scholarships"
+        "ja": "受賞",
+        "en": "Awards"
+      },
+      "scholarships": {
+        "ja": "助成金・奨学金",
+        "en": "Grants & Scholarships"
       }
     },
     "sections": {
@@ -224,8 +244,8 @@
         "en": "Certificates"
       },
       "experience": {
-        "ja": "研究・職歴",
-        "en": "Research & Work Experience"
+        "ja": "経歴",
+        "en": "Experience"
       },
       "domesticConferences": {
         "ja": "国内学会",
@@ -235,9 +255,17 @@
         "ja": "国際学会",
         "en": "International Conferences"
       },
+      "journals": {
+        "ja": "ジャーナル",
+        "en": "Journals"
+      },
       "awards": {
-        "ja": "受賞・奨学金",
-        "en": "Awards & Scholarships"
+        "ja": "受賞",
+        "en": "Awards"
+      },
+      "scholarships": {
+        "ja": "助成金・奨学金",
+        "en": "Grants & Scholarships"
       }
     },
     "footer": {

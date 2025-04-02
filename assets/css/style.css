@@ -13,6 +13,7 @@ body {
   color: #333;
   background-color: #fff;
   padding-top: 60px; /* Space for fixed header */
+  font-size: 16px; /* Increased base font size */
 }
 
 a {
@@ -200,11 +201,45 @@ main {
 /* Publications section styles */
 .publication-item {
   margin-bottom: 15px;
+  font-size: 17px;
 }
 
 /* Awards section styles */
 .award-item {
   margin-bottom: 10px;
+  font-size: 17px;
+}
+
+/* Numbered list styles */
+.numbered-list {
+  list-style-type: none;
+  margin-left: 20px;
+  padding-left: 0;
+  counter-reset: item;
+}
+
+.numbered-list li {
+  margin-bottom: 15px;
+  position: relative;
+  padding-left: 40px;
+  counter-increment: item;
+}
+
+.numbered-list li::before {
+  content: "[" counter(item) "] ";
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+/* Section headings */
+h3 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 17px;
 }
 
 /* Footer styles */
