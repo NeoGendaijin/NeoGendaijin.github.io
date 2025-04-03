@@ -126,8 +126,8 @@
   "publications": {
     "domesticConferences": [
       {
-        "ja": "2023/06 堀口維里優、芦原佑太、山川宏：「脳型AIの基盤となる画像からの解剖学的神経投射の抽出」人工知能学会全国大会（口頭発表・熊本）",
-        "en": "June 2023: Ilya Horiguchi, Yuta Ashihara, Hiroshi Yamakawa: \"Extraction of Anatomical Neural Projections from Images as a Basis for Brain-like AI\" (Oral, JSAI, Kumamoto)"
+        "ja": "2023/06 堀口維里優、芦原佑太、山川宏：「脳型AIの基盤となる画像からの解剖学的神経投射の抽出」人工知能学会全国大会（口頭発表・熊本）（🎉優秀賞）",
+        "en": "June 2023: Ilya Horiguchi, Yuta Ashihara, Hiroshi Yamakawa: \"Extraction of Anatomical Neural Projections from Images as a Basis for Brain-like AI\" (Oral, JSAI, Kumamoto)(🎉Excellent Poster Award)"
       },
       {
         "ja": "2024/05 堀口維里優、吉田崇英、池上高志：「LLMエージェント同士の自然言語による戦略進化」人工知能学会全国大会（ポスター発表・静岡）",
@@ -152,7 +152,7 @@
         "en": "January 2025: Ilya Horiguchi, Michael Crosscombe, Shigeto Dobata, Takashi Ikegami: \"Quantifying Ant Colony Dynamics and Role Transmission Using Information Theory and Gromov-Wasserstein Optimal Transport\" (peer-reviewed, AROB 2025, Beppu)"
       },
       {
-        "ja": "2025/03: Ilya Horiguchi, Michael Crosscombe, Takashi Ikegami: 「Impact of Communication Masking on Problem Solving in LLM Agent Networks」 (査読有・IEEE SSCI 2025、トロンヘイム)",
+        "ja": "2025/03: Ilya Horiguchi, Michael Crosscombe, Takashi Ikegami: 「Impact of Communication Masking on Problem Solving in LLM Agent Networks」 (査読有・IEEE SSCI 2025、トロンハイム)",
         "en": "March 2025: Ilya Horiguchi, Michael Crosscombe, Takashi Ikegami: \"Impact of Communication Masking on Problem Solving in LLM Agent Networks\" (peer-reviewed, IEEE SSCI 2025, Trondheim)"
       }
     ],
