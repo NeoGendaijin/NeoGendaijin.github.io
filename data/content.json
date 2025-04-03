@@ -126,34 +126,34 @@
   "publications": {
     "domesticConferences": [
       {
-        "ja": "2023/06 堀口維里優、芦原佑太、山川宏：「脳型AIの基盤となる画像からの解剖学的神経投射の抽出」人工知能学会全国大会（口頭発表・熊本）（🎉優秀賞）",
-        "en": "June 2023: Ilya Horiguchi, Yuta Ashihara, Hiroshi Yamakawa: \"Extraction of Anatomical Neural Projections from Images as a Basis for Brain-like AI\" (Oral, JSAI, Kumamoto)(🎉Excellent Poster Award)"
-      },
-      {
         "ja": "2024/05 堀口維里優、吉田崇英、池上高志：「LLMエージェント同士の自然言語による戦略進化」人工知能学会全国大会（ポスター発表・静岡）",
         "en": "May 2024: Ilya Horiguchi, Takahide Yoshida, Takashi Ikegami: \"Strategic Evolution in LLM Agents via Natural Language\" (Poster, JSAI, Shizuoka)"
+      },
+      {
+        "ja": "2023/06 堀口維里優、芦原佑太、山川宏：「脳型AIの基盤となる画像からの解剖学的神経投射の抽出」人工知能学会全国大会（口頭発表・熊本）（🎉優秀賞）",
+        "en": "June 2023: Ilya Horiguchi, Yuta Ashihara, Hiroshi Yamakawa: \"Extraction of Anatomical Neural Projections from Images as a Basis for Brain-like AI\" (Oral, JSAI, Kumamoto)(🎉Excellent Poster Award)"
       }
     ],
     "internationalConferences": [
       {
-        "ja": "2024/07: Ilya Horiguchi, Takahide Yoshida, Takashi Ikegami: 「Strategic Norm Emergence in Large Language Model Agents: An Evolutionary Approach to Social Norm Formation」 (査読有・ASSC 27、東京)",
-        "en": "July 2024: Ilya Horiguchi, Takahide Yoshida, Takashi Ikegami: \"Strategic Norm Emergence in Large Language Model Agents: An Evolutionary Approach to Social Norm Formation\" (peer-reviewed, ASSC 27, Tokyo)"
-      },
-      {
-        "ja": "2024/07: Ilya Horiguchi, Norihiro Maruyama, Shigeto Dobata, Michael Crosscombe, Takashi Ikegami: 「Quantifying Autonomy in Ant Colonies Using Non-Trivial Information Closure」 (査読有・ALIFE 2024、コペンハーゲン)",
-        "en": "July 2024: Ilya Horiguchi, Norihiro Maruyama, Shigeto Dobata, Michael Crosscombe, Takashi Ikegami: \"Quantifying Autonomy in Ant Colonies Using Non-Trivial Information Closure\" (peer-reviewed, ALIFE 2024, Copenhagen)"
-      },
-      {
-        "ja": "2024/07: Michael Crosscombe, Ilya Horiguchi, Norihiro Maruyama, Shigeto Dobata, Takashi Ikegami: 「A Simulation Environment for the Neuroevolution of Ant Colony Dynamics」 (査読有・ALIFE 2024、コペンハーゲン)",
-        "en": "July 2024: Michael Crosscombe, Ilya Horiguchi, Norihiro Maruyama, Shigeto Dobata, Takashi Ikegami: \"A Simulation Environment for the Neuroevolution of Ant Colony Dynamics\" (peer-reviewed, ALIFE 2024, Copenhagen)"
+        "ja": "2025/03: Ilya Horiguchi, Michael Crosscombe, Takashi Ikegami: 「Impact of Communication Masking on Problem Solving in LLM Agent Networks」 (査読有・IEEE SSCI 2025、トロンハイム)",
+        "en": "March 2025: Ilya Horiguchi, Michael Crosscombe, Takashi Ikegami: \"Impact of Communication Masking on Problem Solving in LLM Agent Networks\" (peer-reviewed, IEEE SSCI 2025, Trondheim)"
       },
       {
         "ja": "2025/01: Ilya Horiguchi, Michael Crosscombe, Shigeto Dobata, Takashi Ikegami: 「Quantifying Ant Colony Dynamics and Role Transmission Using Information Theory and Gromov-Wasserstein Optimal Transport」 (査読有・AROB 2025、別府)",
         "en": "January 2025: Ilya Horiguchi, Michael Crosscombe, Shigeto Dobata, Takashi Ikegami: \"Quantifying Ant Colony Dynamics and Role Transmission Using Information Theory and Gromov-Wasserstein Optimal Transport\" (peer-reviewed, AROB 2025, Beppu)"
       },
       {
-        "ja": "2025/03: Ilya Horiguchi, Michael Crosscombe, Takashi Ikegami: 「Impact of Communication Masking on Problem Solving in LLM Agent Networks」 (査読有・IEEE SSCI 2025、トロンハイム)",
-        "en": "March 2025: Ilya Horiguchi, Michael Crosscombe, Takashi Ikegami: \"Impact of Communication Masking on Problem Solving in LLM Agent Networks\" (peer-reviewed, IEEE SSCI 2025, Trondheim)"
+        "ja": "2024/07: Michael Crosscombe, Ilya Horiguchi, Norihiro Maruyama, Shigeto Dobata, Takashi Ikegami: 「A Simulation Environment for the Neuroevolution of Ant Colony Dynamics」 (査読有・ALIFE 2024、コペンハーゲン)",
+        "en": "July 2024: Michael Crosscombe, Ilya Horiguchi, Norihiro Maruyama, Shigeto Dobata, Takashi Ikegami: \"A Simulation Environment for the Neuroevolution of Ant Colony Dynamics\" (peer-reviewed, ALIFE 2024, Copenhagen)"
+      },
+      {
+        "ja": "2024/07: Ilya Horiguchi, Norihiro Maruyama, Shigeto Dobata, Michael Crosscombe, Takashi Ikegami: 「Quantifying Autonomy in Ant Colonies Using Non-Trivial Information Closure」 (査読有・ALIFE 2024、コペンハーゲン)",
+        "en": "July 2024: Ilya Horiguchi, Norihiro Maruyama, Shigeto Dobata, Michael Crosscombe, Takashi Ikegami: \"Quantifying Autonomy in Ant Colonies Using Non-Trivial Information Closure\" (peer-reviewed, ALIFE 2024, Copenhagen)"
+      },
+      {
+        "ja": "2024/07: Ilya Horiguchi, Takahide Yoshida, Takashi Ikegami: 「Strategic Norm Emergence in Large Language Model Agents: An Evolutionary Approach to Social Norm Formation」 (査読有・ASSC 27、東京)",
+        "en": "July 2024: Ilya Horiguchi, Takahide Yoshida, Takashi Ikegami: \"Strategic Norm Emergence in Large Language Model Agents: An Evolutionary Approach to Social Norm Formation\" (peer-reviewed, ASSC 27, Tokyo)"
       }
     ],
     "journals": [
@@ -167,42 +167,47 @@
   "awards": {
     "awards": [
       {
-        "ja": "2024/10 BCI Award 2024 上位12プロジェクト ノミネート",
-        "en": "2024/10 BCI Award 2024 Nominees for Top 12"
+        "ja": "2025 東京大学大学院　総合文化研究科の卒業生代表を務める（総代）",
+        "en": "March 2025: Served as the student representative at the graduation ceremony or U-Tokyo"
       },
       {
-        "ja": "2024/11 人工知能学会 全国大会2024 優秀賞",
-        "en": "2024/11 Awarded the Excellent Poster Award at the 2024 Annual Conference of the Japanese Society for Artificial Intelligence"
-      },
-      {
-        "ja": "2025/03 修士論文が広域科学専攻奨励賞を受賞",
+        "ja": "2025 修士論文が広域科学専攻奨励賞を受賞",
         "en": "March 2025: Received the Outstanding Graduate Student Award upon completing Master's Degree"
       },
       {
-        "ja": "2025/03 東京大学大学院　総合文化研究科の卒業生代表を務める（総代）",
-        "en": "March 2025: Served as the student representative at the graduation ceremony or U-Tokyo"
+        "ja": "2024 人工知能学会 全国大会2024 優秀賞",
+        "en": "2024 Awarded the Excellent Poster Award at the 2024 Annual Conference of the Japanese Society for Artificial Intelligence"
+      },
+      {
+        "ja": "2024 BCI Award 2024 上位12プロジェクト ノミネート",
+        "en": "2024 BCI Award 2024 Nominees for Top 12"
+      },
+      {
+        "ja": "2016　日本数学オリンピック予選 Aランク",
+        "en": "2016　Japan Mathematical Olympiad,  rank A"
       }
+
     ],
     "scholarships": [
       {
-        "ja": "2023/06 - 知能社会国際卓越大学院（IIW）プログラム生",
-        "en": "2023/06 International Institute for Artificial Intelligence and Society (IIW) Program"
-      },
-      {
-        "ja": "2024/07 ALIFE2024 Student Scholarship",
-        "en": "2024/07 ALIFE2024 Student Scholarship"
-      },
-      {
-        "ja": "2024/10 知能社会国際卓越大学院（IIW）卓越RA 180千円/月",
-        "en": "2024/10 International Institute for Artificial Intelligence and Society (IIW) Research Assistant 180,000 yen/month"
+        "ja": "2025/04 次世代知能社会を先導する高度AI人材育成（BOOST NAIS） 280千円/月",
+        "en": "2025/04 Advanced AI Talent Development to Lead the Next-Generation Intelligent Society (BOOST NAIS), 280,000 yen/month"
       },
       {
         "ja": "2024/12 科学技術融合振興財団（FOST）助成事業 285千円 (2025年2月 - 2026年2月)",
         "en": "2024/12 Foundation for the Fusion of Science and Technology (FOST) Grant, 285,000 yen (Dec. 2024 – Feb. 2025)"
       },
       {
-        "ja": "2025/04 次世代知能社会を先導する高度AI人材育成（BOOST NAIS） 280千円/月",
-        "en": "2025/04 Advanced AI Talent Development to Lead the Next-Generation Intelligent Society (BOOST NAIS), 280,000 yen/month"
+        "ja": "2024/10 知能社会国際卓越大学院（IIW）卓越RA 180千円/月",
+        "en": "2024/10 International Institute for Artificial Intelligence and Society (IIW) Research Assistant 180,000 yen/month"
+      },
+      {
+        "ja": "2024/07 ALIFE2024 Student Scholarship",
+        "en": "2024/07 ALIFE2024 Student Scholarship"
+      },
+      {
+        "ja": "2023/06 - 知能社会国際卓越大学院（IIW）プログラム生",
+        "en": "2023/06 International Institute for Artificial Intelligence and Society (IIW) Program"
       }
     ]
   },
