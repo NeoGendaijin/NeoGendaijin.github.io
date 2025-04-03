@@ -29,7 +29,7 @@
         "en": "March 2023: Bachelor of Engineering in Mathematical Engineering, University of Tokyo"
       },
       {
-        "ja": "2025年3月：東京大学大学院 総合文化研究科 広域科学専攻（修士課程）修了（優秀卒業生賞を受賞）",
+        "ja": "2025年3月：東京大学大学院 総合文化研究科 広域科学専攻修了（広域科学奨励賞）（総代）",
         "en": "March 2025: Master’s Degree in Advanced Science, Graduate School of Arts and Sciences, University of Tokyo (Awarded Outstanding Graduate Student Award)"
       },
       {
@@ -85,6 +85,22 @@
           "en": [
             "Extracting information from paper databases using LLMs",
             "Building automation pipelines for research activities"
+          ]
+        }
+      },
+      {
+        "period_ja": "2025",
+        "period_en": "2025",
+        "place_ja": "NTT R&D リサーチインターン (リンク)",
+        "place_en": "NTT R&D Research Intern (link)",
+        "contents": {
+          "ja": [
+            "ソフトウェアテストの自動化に向けた開発",
+            "大規模言語モデルを既存システムに統合"
+          ],
+          "en": [
+            "Development Toward the Automation of Software Testing",
+            "Integration of Large Language Models into Existing Systems"
           ]
         }
       },
