@@ -6,7 +6,7 @@
     },
     "labLinkText": {
       "ja": "大泉研究室 (リンク)",
-      "en": "Oizumi Ikegami Lab (Link)"
+      "en": "Oizumi Lab (Link)"
     },
     "field": {
       "ja": "専門分野：神経科学, 情報論, 群知能",
@@ -59,8 +59,8 @@
       {
         "period_ja": "2024/1 - 現在",
         "period_en": "January 2024 - Present",
-        "place_ja": "Araya – X Communication リサーチインターン (リンク)",
-        "place_en": "Araya – X Communication Research Intern (link)",
+        "place_ja": "Araya - X Communication リサーチインターン (リンク)",
+        "place_en": "Araya - X Communication Research Intern (link)",
         "contents": {
           "ja": [
             "EEG脳波データからテキストやスピーチを再構成する研究",
@@ -107,8 +107,8 @@
       {
         "period_ja": "2022/10 - 2024/4",
         "period_en": "October 2022 - April 2024",
-        "place_ja": "松尾研 – 研究インターン (リンク)",
-        "place_en": "Matsuo Laboratory – Research Intern (link)",
+        "place_ja": "松尾研 - 研究インターン (リンク)",
+        "place_en": "Matsuo Laboratory - Research Intern (link)",
         "contents": {
           "ja": [
             "神経科学文献から解剖学的神経投射情報の抽出",
@@ -126,11 +126,11 @@
   "publications": {
     "domesticConferences": [
       {
-        "ja": "2024/05 堀口維里優、吉田崇英、池上高志：「LLMエージェント同士の自然言語による戦略進化」人工知能学会全国大会（ポスター発表・静岡）",
+        "ja": "2024/05 堀口維里優、吉田崇英、池上高志:「LLMエージェント同士の自然言語による戦略進化」人工知能学会全国大会（ポスター発表・静岡）",
         "en": "May 2024: Ilya Horiguchi, Takahide Yoshida, Takashi Ikegami: \"Strategic Evolution in LLM Agents via Natural Language\" (Poster, JSAI, Shizuoka)"
       },
       {
-        "ja": "2023/06 堀口維里優、芦原佑太、山川宏：「脳型AIの基盤となる画像からの解剖学的神経投射の抽出」人工知能学会全国大会（口頭発表・熊本）（🎉優秀賞）",
+        "ja": "2023/06 堀口維里優、芦原佑太、山川宏:「脳型AIの基盤となる画像からの解剖学的神経投射の抽出」人工知能学会全国大会（口頭発表・熊本）（🎉優秀賞）",
         "en": "June 2023: Ilya Horiguchi, Yuta Ashihara, Hiroshi Yamakawa: \"Extraction of Anatomical Neural Projections from Images as a Basis for Brain-like AI\" (Oral, JSAI, Kumamoto)(🎉Excellent Poster Award)"
       }
     ],
@@ -199,7 +199,7 @@
       },
       {
         "ja": "2024/12 科学技術融合振興財団（FOST）助成事業 285千円 (2025年2月 - 2026年2月)",
-        "en": "2024/12 Foundation for the Fusion of Science and Technology (FOST) Grant, 285,000 yen (Dec. 2024 – Feb. 2025)"
+        "en": "2024/12 Foundation for the Fusion of Science and Technology (FOST) Grant, 285,000 yen (Dec. 2024 - Feb. 2025)"
       },
       {
         "ja": "2024/10 知能社会国際卓越大学院（IIW）卓越RA 180千円/月",
