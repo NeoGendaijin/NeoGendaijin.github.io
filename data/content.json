@@ -5,8 +5,8 @@
       "en": "Ilya Horiguchi"
     },
     "labLinkText": {
-      "ja": "大泉研究室 (リンク)",
-      "en": "Oizumi Ikegami Lab (Link)"
+      "ja": "大泉研究室 (<a href=\"https://sites.google.com/a/g.ecc.u-tokyo.ac.jp/oizumi-lab/home?authuser=0\">リンク</a>)",
+      "en": "Oizumi Ikegami Lab (<a href=\"https://sites.google.com/a/g.ecc.u-tokyo.ac.jp/oizumi-lab/english?authuser=0\">Link<\a>)"
     },
     "field": {
       "ja": "専門分野：神経科学, 情報論, 群知能",
