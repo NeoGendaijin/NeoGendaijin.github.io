@@ -136,6 +136,10 @@
     ],
     "internationalConferences": [
       {
+        "ja": "2025/08: Masakazu Inoue, Motoshige Sato, Kenichi Tomeoka, Nathania Nah, Eri Hatakeyama, Kai Arulkumaran, Ilya Horiguchi, Shuntaro Sasai: 「Impact of Communication Masking on Problem Solving in LLM Agent Networks」 (査読有・Interspeech 2025、ロッテルダム)",
+        "en": "August 2025: Masakazu Inoue, Motoshige Sato, Kenichi Tomeoka, Nathania Nah, Eri Hatakeyama, Kai Arulkumaran, Ilya Horiguchi, Shuntaro Sasai: \"A Silent Speech Decoding System from EEG & EMG with Heterogeneous Electrode Configurations.\" (peer-reviewed, Interspeech 2025, Rotterdam)"
+      },
+      {
         "ja": "2025/03: Ilya Horiguchi, Michael Crosscombe, Takashi Ikegami: 「Impact of Communication Masking on Problem Solving in LLM Agent Networks」 (査読有・IEEE SSCI 2025、トロンハイム)",
         "en": "March 2025: Ilya Horiguchi, Michael Crosscombe, Takashi Ikegami: \"Impact of Communication Masking on Problem Solving in LLM Agent Networks\" (peer-reviewed, IEEE SSCI 2025, Trondheim)"
       },
