@@ -5,7 +5,7 @@
 
 // Global content data
 let contentData = null;
-let currentLang = 'ja'; // Default language
+let currentLang = 'en'; // Default language
 
 // Initialize the application when DOM is fully loaded
 document.addEventListener('DOMContentLoaded', () => {
@@ -212,10 +212,11 @@ function updateProfileInfo() {
   // Update affiliation
   document.getElementById('profile-affiliation').textContent = profileData.affiliation[currentLang];
 
-  // Update lab link (always set, never as a link)
+  // Update lab link
   const labLinkElem = document.getElementById('profile-lab-link');
-  if (labLinkElem) {
-    labLinkElem.textContent = (profileData.labLinkText && profileData.labLinkText[currentLang]) ? profileData.labLinkText[currentLang] : "";
+  if (labLinkElem && profileData.labLinkText) {
+    const text = profileData.labLinkText[currentLang] || "";
+    labLinkElem.innerHTML = createLinkedText(text, profileData.labLinkText, currentLang);
   }
   
   // Update field
@@ -241,7 +242,8 @@ function updateEducation() {
     
     educationData.items.forEach(item => {
       const li = document.createElement('li');
-      li.textContent = item[currentLang];
+      const text = item[currentLang] || '';
+      li.innerHTML = createLinkedText(text, item, currentLang);
       educationList.appendChild(li);
     });
   }
@@ -286,7 +288,8 @@ function updateExperience() {
       
       const place = document.createElement('div');
       place.className = 'experience-place';
-      place.textContent = currentLang === 'ja' ? item.place_ja : item.place_en;
+      const placeText = (currentLang === 'ja' ? item.place_ja : item.place_en) || '';
+      place.innerHTML = createLinkedText(placeText, item, currentLang);
       
       const contentsList = document.createElement('ul');
       const contents = currentLang === 'ja' ? item.contents.ja : item.contents.en;
@@ -323,7 +326,8 @@ function updatePublications() {
       li.className = 'publication-item';
       
       // Create text with underlined author name
-      const text = item[currentLang];
+      let text = item[currentLang] || '';
+      text = createLinkedText(text, item, currentLang);
       const highlightedText = text.replace(/Ilya Horiguchi|堀口\s?維里優/g, '<u>$&</u>');
       
       li.innerHTML = highlightedText;
@@ -341,7 +345,8 @@ function updatePublications() {
       li.className = 'publication-item';
       
       // Create text with underlined author name
-      const text = item[currentLang];
+      let text = item[currentLang] || '';
+      text = createLinkedText(text, item, currentLang);
       const highlightedText = text.replace(/Ilya Horiguchi|堀口\s?維里優/g, '<u>$&</u>');
       
       li.innerHTML = highlightedText;
@@ -359,7 +364,8 @@ function updatePublications() {
       li.className = 'publication-item';
       
       // Create text with underlined author name
-      const text = item[currentLang];
+      let text = item[currentLang] || '';
+      text = createLinkedText(text, item, currentLang);
       const highlightedText = text.replace(/Ilya Horiguchi|堀口\s?維里優/g, '<u>$&</u>');
       
       li.innerHTML = highlightedText;
@@ -383,7 +389,8 @@ function updateAwards() {
     awardsData.awards.forEach((item, index) => {
       const li = document.createElement('li');
       li.className = 'award-item';
-      li.textContent = `${item[currentLang]}`;
+      const text = item[currentLang] || '';
+      li.innerHTML = createLinkedText(text, item, currentLang);
       awardsList.appendChild(li);
     });
   }
@@ -395,7 +402,8 @@ function updateAwards() {
     awardsData.scholarships.forEach((item, index) => {
       const li = document.createElement('li');
       li.className = 'award-item';
-      li.textContent = `${item[currentLang]}`;
+      const text = item[currentLang] || '';
+      li.innerHTML = createLinkedText(text, item, currentLang);
       scholarshipsList.appendChild(li);
     });
   }
@@ -409,6 +417,28 @@ function updateFooter() {
   
   // Update copyright text
   document.getElementById('copyright').textContent = footerData.copyright[currentLang];
+}
+
+/**
+ * Creates linked text if the item has a corresponding link property.
+ * @param {string} text - The text to potentially link.
+ * @param {object} dataObject - The data object that might contain link-ja or link-en.
+ * @param {string} lang - The current language ('ja' or 'en').
+ * @returns {string} - The text, with a link if applicable.
+ */
+function createLinkedText(text, dataObject, lang) {
+  if (!text || !dataObject || typeof dataObject !== 'object') {
+    return text;
+  }
+  const linkKey = `link-${lang}`;
+  const searchText = lang === 'ja' ? 'リンク' : 'link';
+
+  if (dataObject[linkKey] && text.includes(searchText)) {
+    const url = dataObject[linkKey];
+    const linkHtml = `<a href="${url}" target="_blank" rel="noopener noreferrer">${searchText}</a>`;
+    return text.replace(searchText, linkHtml);
+  }
+  return text;
 }
 
 /**

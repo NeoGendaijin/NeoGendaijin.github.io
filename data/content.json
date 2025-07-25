@@ -5,8 +5,10 @@
       "en": "Ilya Horiguchi"
     },
     "labLinkText": {
-      "ja": "大泉研究室 (リンク)",
-      "en": "Oizumi Lab (link)"
+      "ja": "大泉研究室 [リンク]",
+      "en": "Oizumi Lab [link]",
+      "link-ja": "https://sites.google.com/a/g.ecc.u-tokyo.ac.jp/oizumi-lab/",
+      "link-en": "https://sites.google.com/a/g.ecc.u-tokyo.ac.jp/oizumi-lab/english?authuser=0"
     },
     "field": {
       "ja": "専門分野：神経科学, 情報論, 群知能",
@@ -59,8 +61,10 @@
       {
         "period_ja": "2024/1 - 現在",
         "period_en": "January 2024 - Present",
-        "place_ja": "Araya - X Communication リサーチインターン (リンク)",
-        "place_en": "Araya - X Communication Research Intern (link)",
+        "place_ja": "Araya - X Communication リサーチインターン [リンク]",
+        "place_en": "Araya - X Communication Research Intern [link]",
+        "link-ja": "https://research.araya.org/ja/research/x-communication-team/",
+        "link-en": "https://research.araya.org/research/x-communication-team/",
         "contents": {
           "ja": [
             "EEG脳波データからテキストやスピーチを再構成する研究",
@@ -75,8 +79,10 @@
       {
         "period_ja": "2023/6 - 現在",
         "period_en": "June 2023 - Present",
-        "place_ja": "AutoRes プロジェクト リサーチインターン (リンク)",
-        "place_en": "AutoRes Project Research Intern (link)",
+        "place_ja": "AutoRes プロジェクト リサーチインターン [リンク]",
+        "place_en": "AutoRes Project Research Intern [link]",
+        "link-ja": "https://www.autores.one/japanese",
+        "link-en": "https://www.autores.one/english",
         "contents": {
           "ja": [
             "LLMを使用した論文データベースからの情報抽出",
@@ -91,8 +97,10 @@
       {
         "period_ja": "2025",
         "period_en": "2025",
-        "place_ja": "NTT R&D リサーチインターン (リンク)",
-        "place_en": "NTT R&D Research Intern (link)",
+        "place_ja": "NTT R&D リサーチインターン [リンク]",
+        "place_en": "NTT R&D Research Intern [link]",
+        "link-ja": "https://www.rd.ntt/",
+        "link-en": "https://www.rd.ntt/e/",
         "contents": {
           "ja": [
             "ソフトウェアテストの自動化に向けた開発",
@@ -107,8 +115,10 @@
       {
         "period_ja": "2022/10 - 2024/4",
         "period_en": "October 2022 - April 2024",
-        "place_ja": "松尾研 - 研究インターン (リンク)",
-        "place_en": "Matsuo Laboratory - Research Intern (link)",
+        "place_ja": "松尾研 - 研究インターン [リンク]",
+        "place_en": "Matsuo Laboratory - Research Intern [link]",
+        "link-ja": "https://weblab.t.u-tokyo.ac.jp/research/",
+        "link-en": "https://weblab.t.u-tokyo.ac.jp/en/research/",
         "contents": {
           "ja": [
             "神経科学文献から解剖学的神経投射情報の抽出",
