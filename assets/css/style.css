@@ -165,7 +165,13 @@ main {
 
 .profile-right h3 {
   font-weight: normal;
-  margin-bottom: 20px;
+}
+
+#profile-lab-link {
+  display: block;
+  color: #222;
+  margin-bottom: 0.5em;
+  font-size: 1.4rem;
 }
 
 #profile-field {

@@ -211,6 +211,12 @@ function updateProfileInfo() {
   
   // Update affiliation
   document.getElementById('profile-affiliation').textContent = profileData.affiliation[currentLang];
+
+  // Update lab link (always set, never as a link)
+  const labLinkElem = document.getElementById('profile-lab-link');
+  if (labLinkElem) {
+    labLinkElem.textContent = (profileData.labLinkText && profileData.labLinkText[currentLang]) ? profileData.labLinkText[currentLang] : "";
+  }
   
   // Update field
   document.getElementById('profile-field').textContent = profileData.field[currentLang];
