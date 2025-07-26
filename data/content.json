@@ -136,6 +136,10 @@
   "publications": {
     "domesticConferences": [
       {
+        "ja": "2025/07 堀口維里優、佐藤元重、留岡健一、井上昌和、笹井俊太朗：「拡散モデルとMFCC特徴に基づく非侵襲型EEGからのリアルタイム発話再構築」日本神経科学大会（ポスター発表・新潟）",
+        "en": "July 2025: Ilya Horiguchi, Motoshige Sato, Kenichi Tomeoka, Masakazu Inoue, Shuntaro Sasai: \"Real-Time Speech Reconstruction from Non-Invasive EEG Using Diffusion Models and MFCC-Based Latent Representations\" (Poster, JNS, Niigata)"
+      },
+      {
         "ja": "2024/05 堀口維里優、吉田崇英、池上高志:「LLMエージェント同士の自然言語による戦略進化」人工知能学会全国大会（ポスター発表・静岡）",
         "en": "May 2024: Ilya Horiguchi, Takahide Yoshida, Takashi Ikegami: \"Strategic Evolution in LLM Agents via Natural Language\" (Poster, JSAI, Shizuoka)"
       },
