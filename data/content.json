@@ -95,6 +95,24 @@
         }
       },
       {
+        "period_ja": "2025/8 - 2025/9",
+        "period_en": "August 2025 - September 2025",
+        "place_ja": "Preferred Networks, Inc. サマーインターン [リンク]",
+        "place_en": "Preferred Networks, Inc. Summer Intern [link]",
+        "link-ja": "https://tech.preferred.jp/ja/",
+        "link-en": "https://tech.preferred.jp/en/",
+        "contents": {
+          "ja": [
+            "Webエージェントの効率化に向けた最適化",
+            "ベンチマーク性能向上のためのツール開発"
+          ],
+          "en": [
+            "Optimizing the efficiency of web agents",
+            "Developing tools to achieve better benchmark performance"
+          ]
+        }
+      },      
+      {
         "period_ja": "2025",
         "period_en": "2025",
         "place_ja": "NTT R&D リサーチインターン [リンク]",
