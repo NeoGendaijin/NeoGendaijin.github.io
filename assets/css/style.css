@@ -284,6 +284,54 @@ footer {
     margin-top: 10px;
   }
   
+  main {
+    padding: 20px 15px;
+  }
+  
+  /* Profile section mobile styles */
+  .profile-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .profile-left {
+    width: 100%;
+    align-items: center;
+  }
+  
+  .profile-right {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .social-icons {
+    gap: 12px;
+  }
+  
+  .social-icon {
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+  }
+  
+  .profile-right h1 {
+    font-size: 2rem;
+  }
+  
+  .profile-right h3 {
+    font-size: 1.1rem;
+  }
+  
+  #profile-lab-link {
+    font-size: 1.1rem;
+  }
+  
   #basic table {
     flex-direction: column;
   }
