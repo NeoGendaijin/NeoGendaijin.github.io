@@ -168,27 +168,35 @@
     ],
     "internationalConferences": [
       {
-        "ja": "2025/08: Masakazu Inoue, Motoshige Sato, Kenichi Tomeoka, Nathania Nah, Eri Hatakeyama, Kai Arulkumaran, Ilya Horiguchi, Shuntaro Sasai: 「A Silent Speech Decoding System from EEG & EMG with Heterogeneous Electrode Configurations」 (査読有・Interspeech 2025、ロッテルダム)",
+        "ja": "2025/10: Ilya Horiguchi, Michael Crosscombe, Ryosuke Takata, Takashi Ikegami: 「Strategy Extraction from Reinforcement Learning via LLM-Guided Natural Language Annotation」 (査読有、ALIFE 2025、京都)",
+        "en": "October 2025: Ilya Horiguchi, Michael Crosscombe, Ryosuke Takata, Takashi Ikegami: \"Strategy Extraction from Reinforcement Learning via LLM-Guided Natural Language Annotation\" (peer-reviewed, ALIFE 2025, Kyoto)"
+      },
+      {
+        "ja": "2025/10: Shigeto Dobata, Yusuke Notomi, Tatsumi Kudo, Ilya Horiguchi, Michael Crosscombe, Norihiro Maruyama, Acer Yu-Chan Chang, Takashi Ikegami: 「Collective behavior of water beetles with varying degrees of information closure」 (査読有、ALIFE 2025、京都)",
+        "en": "October 2025: Shigeto Dobata, Yusuke Notomi, Tatsumi Kudo, Ilya Horiguchi, Michael Crosscombe, Norihiro Maruyama, Acer Yu-Chan Chang, Takashi Ikegami: \"Collective behavior of water beetles with varying degrees of information closure\" (peer-reviewed, ALIFE 2025, Kyoto)"
+      },
+      {
+        "ja": "2025/08: Masakazu Inoue, Motoshige Sato, Kenichi Tomeoka, Nathania Nah, Eri Hatakeyama, Kai Arulkumaran, Ilya Horiguchi, Shuntaro Sasai: 「A Silent Speech Decoding System from EEG & EMG with Heterogeneous Electrode Configurations」 (査読有、Interspeech 2025、ロッテルダム)",
         "en": "August 2025: Masakazu Inoue, Motoshige Sato, Kenichi Tomeoka, Nathania Nah, Eri Hatakeyama, Kai Arulkumaran, Ilya Horiguchi, Shuntaro Sasai: \"A Silent Speech Decoding System from EEG & EMG with Heterogeneous Electrode Configurations.\" (peer-reviewed, Interspeech 2025, Rotterdam)"
       },
       {
-        "ja": "2025/03: Ilya Horiguchi, Michael Crosscombe, Takashi Ikegami: 「Impact of Communication Masking on Problem Solving in LLM Agent Networks」 (査読有・IEEE SSCI 2025、トロンハイム)",
+        "ja": "2025/03: Ilya Horiguchi, Michael Crosscombe, Takashi Ikegami: 「Impact of Communication Masking on Problem Solving in LLM Agent Networks」 (査読有、IEEE SSCI 2025、トロンハイム)",
         "en": "March 2025: Ilya Horiguchi, Michael Crosscombe, Takashi Ikegami: \"Impact of Communication Masking on Problem Solving in LLM Agent Networks\" (peer-reviewed, IEEE SSCI 2025, Trondheim)"
       },
       {
-        "ja": "2025/01: Ilya Horiguchi, Michael Crosscombe, Shigeto Dobata, Takashi Ikegami: 「Quantifying Ant Colony Dynamics and Role Transmission Using Information Theory and Gromov-Wasserstein Optimal Transport」 (査読有・AROB 2025、別府)",
+        "ja": "2025/01: Ilya Horiguchi, Michael Crosscombe, Shigeto Dobata, Takashi Ikegami: 「Quantifying Ant Colony Dynamics and Role Transmission Using Information Theory and Gromov-Wasserstein Optimal Transport」 (査読有、AROB 2025、別府)",
         "en": "January 2025: Ilya Horiguchi, Michael Crosscombe, Shigeto Dobata, Takashi Ikegami: \"Quantifying Ant Colony Dynamics and Role Transmission Using Information Theory and Gromov-Wasserstein Optimal Transport\" (peer-reviewed, AROB 2025, Beppu)"
       },
       {
-        "ja": "2024/07: Michael Crosscombe, Ilya Horiguchi, Norihiro Maruyama, Shigeto Dobata, Takashi Ikegami: 「A Simulation Environment for the Neuroevolution of Ant Colony Dynamics」 (査読有・ALIFE 2024、コペンハーゲン)",
+        "ja": "2024/07: Michael Crosscombe, Ilya Horiguchi, Norihiro Maruyama, Shigeto Dobata, Takashi Ikegami: 「A Simulation Environment for the Neuroevolution of Ant Colony Dynamics」 (査読有、ALIFE 2024、コペンハーゲン)",
         "en": "July 2024: Michael Crosscombe, Ilya Horiguchi, Norihiro Maruyama, Shigeto Dobata, Takashi Ikegami: \"A Simulation Environment for the Neuroevolution of Ant Colony Dynamics\" (peer-reviewed, ALIFE 2024, Copenhagen)"
       },
       {
-        "ja": "2024/07: Ilya Horiguchi, Norihiro Maruyama, Shigeto Dobata, Michael Crosscombe, Takashi Ikegami: 「Quantifying Autonomy in Ant Colonies Using Non-Trivial Information Closure」 (査読有・ALIFE 2024、コペンハーゲン)",
+        "ja": "2024/07: Ilya Horiguchi, Norihiro Maruyama, Shigeto Dobata, Michael Crosscombe, Takashi Ikegami: 「Quantifying Autonomy in Ant Colonies Using Non-Trivial Information Closure」 (査読有、ALIFE 2024、コペンハーゲン)",
         "en": "July 2024: Ilya Horiguchi, Norihiro Maruyama, Shigeto Dobata, Michael Crosscombe, Takashi Ikegami: \"Quantifying Autonomy in Ant Colonies Using Non-Trivial Information Closure\" (peer-reviewed, ALIFE 2024, Copenhagen)"
       },
       {
-        "ja": "2024/07: Ilya Horiguchi, Takahide Yoshida, Takashi Ikegami: 「Strategic Norm Emergence in Large Language Model Agents: An Evolutionary Approach to Social Norm Formation」 (査読有・ASSC 27、東京)",
+        "ja": "2024/07: Ilya Horiguchi, Takahide Yoshida, Takashi Ikegami: 「Strategic Norm Emergence in Large Language Model Agents: An Evolutionary Approach to Social Norm Formation」 (査読有、ASSC 27、東京)",
         "en": "July 2024: Ilya Horiguchi, Takahide Yoshida, Takashi Ikegami: \"Strategic Norm Emergence in Large Language Model Agents: An Evolutionary Approach to Social Norm Formation\" (peer-reviewed, ASSC 27, Tokyo)"
       }
     ],
