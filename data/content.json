@@ -7,8 +7,8 @@
     "labLinkText": {
       "ja": "大泉研究室 [リンク]",
       "en": "Oizumi Lab [link]",
-      "link-ja": "https://sites.google.com/a/g.ecc.u-tokyo.ac.jp/oizumi-lab/",
-      "link-en": "https://sites.google.com/a/g.ecc.u-tokyo.ac.jp/oizumi-lab/english?authuser=0"
+      "link-ja": "https://oizumi-lab-website.vercel.app/members",
+      "link-en": "https://oizumi-lab-website.vercel.app/members"
     },
     "field": {
       "ja": "専門分野：神経科学, 情報論, 群知能",
