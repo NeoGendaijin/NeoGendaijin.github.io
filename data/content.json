@@ -41,21 +41,6 @@
     ]
   },
 
-  "skills": {
-    "programming": {
-      "ja": "Python（特にPyTorchを用いたニューラルネットワーク実装）、C、C++、Java、Matlab",
-      "en": "Python (especially neural network implementations with PyTorch), C, C++, Java, Matlab"
-    },
-    "tools": {
-      "ja": "機械学習、EEG分析、自然言語処理、大規模分散学習（PyTorch DDP）、高性能計算（TSUBAME利用）、応用情報技術者",
-      "en": "Machine Learning, EEG Analysis, Natural Language Processing, Large-scale Distributed Training (PyTorch DDP), High-Performance Computing (TSUBAME), Applied Information Technology Engineer"
-    },
-    "certificates": {
-      "ja": "英検1級、応用情報技術者試験",
-      "en": "Applied Information Technology Engineer, Eiken Grade 1"
-    }
-  },
-
   "experience": {
     "items": [
       {
@@ -266,6 +251,21 @@
         "en": "2023/06 International Institute for Artificial Intelligence and Society (IIW) Program"
       }
     ]
+  },
+
+  "skills": {
+    "programming": {
+      "ja": "Python（特にPyTorchを用いたニューラルネットワーク実装）、C、C++、Java、Matlab",
+      "en": "Python (especially neural network implementations with PyTorch), C, C++, Java, Matlab"
+    },
+    "tools": {
+      "ja": "機械学習、EEG分析、自然言語処理、大規模分散学習（PyTorch DDP）、高性能計算（TSUBAME利用）、応用情報技術者",
+      "en": "Machine Learning, EEG Analysis, Natural Language Processing, Large-scale Distributed Training (PyTorch DDP), High-Performance Computing (TSUBAME), Applied Information Technology Engineer"
+    },
+    "certificates": {
+      "ja": "英検1級、応用情報技術者試験",
+      "en": "Applied Information Technology Engineer, Eiken Grade 1"
+    }
   },
 
   "ui": {
