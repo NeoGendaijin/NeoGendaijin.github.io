@@ -153,6 +153,10 @@
     ],
     "internationalConferences": [
       {
+        "ja": "2026/01: Shigeto Dobata, Yusuke Notomi, Tatsumi Kudo, Ilya Horiguchi, Michael Crosscombe, Norihiro Maruyama, Acer Yu-Chan Chang, Takashi Ikegami: 「Information flow from macro to micro: a case study in insect collectives」 (査読有、AROB 2026、別府)",
+        "en": "January 2026: Shigeto Dobata, Yusuke Notomi, Tatsumi Kudo, Ilya Horiguchi, Michael Crosscombe, Norihiro Maruyama, Acer Yu-Chan Chang, Takashi Ikegami: \"Information flow from macro to micro: a case study in insect collectives\" (peer-reviewed, AROB 2026, Beppu)"
+      },      
+      {
         "ja": "2025/10: Ilya Horiguchi, Michael Crosscombe, Ryosuke Takata, Takashi Ikegami: 「Strategy Extraction from Reinforcement Learning via LLM-Guided Natural Language Annotation」 (査読有、ALIFE 2025、京都)",
         "en": "October 2025: Ilya Horiguchi, Michael Crosscombe, Ryosuke Takata, Takashi Ikegami: \"Strategy Extraction from Reinforcement Learning via LLM-Guided Natural Language Annotation\" (peer-reviewed, ALIFE 2025, Kyoto)"
       },
