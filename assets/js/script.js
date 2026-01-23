@@ -31,8 +31,30 @@ async function initApp() {
   // Set up scroll spy to highlight active navigation links
   setupScrollSpy();
   
-  // Load content data
+  // Load content data (embedded first, then fallback to JSON file)
+  const embeddedContentData = getEmbeddedContentData();
+  if (embeddedContentData) {
+    contentData = embeddedContentData;
+    updatePageContent();
+    return;
+  }
   await loadContentData();
+}
+
+/**
+ * Load content data
+ */
+function getEmbeddedContentData() {
+  const embeddedDataTag = document.getElementById('content-data');
+  if (!embeddedDataTag) {
+    return null;
+  }
+  try {
+    return JSON.parse(embeddedDataTag.textContent.trim());
+  } catch (e) {
+    console.error('Error parsing embedded content data:', e);
+    return null;
+  }
 }
 
 /**
