@@ -139,8 +139,8 @@
   "publications": {
     "journals": [
       {
-        "ja": "2026: 森隆太郎、原田憲旺、水野晋之介、大西直、堀口維里優、坂本航太郎、堀部和也、小島武、松尾豊、岩澤有祐：「大規模言語モデル時代の社会シミュレーション：「再現」と「理解」の目的別に見る研究動向」人工知能学会誌、特集論文「人工知能学会設立40周年記念論文」",
-        "en": "2026: Ryutaro Mori, Keno Harada, Shinnosuke Mizuno, Tadashi Onishi, Ilya Horiguchi, Kotaro Sakamoto, Kazuya Horibe, Takeshi Kojima, Yutaka Matsuo, Yusuke Iwasawa: \"Replicating Systems, Understanding Mechanisms: A Survey on Social Simulation with Large Language Model Agents\" Journal of the Japanese Society for Artificial Intelligence, Special Issue: 40th Anniversary of the Japanese Society for Artificial Intelligence"
+        "ja": "2026/06: 森隆太郎、原田憲旺、水野晋之介、大西直、堀口維里優、坂本航太郎、堀部和也、小島武、松尾豊、岩澤有祐：「大規模言語モデル時代の社会シミュレーション：「再現」と「理解」の目的別に見る研究動向」人工知能学会誌、特集論文「人工知能学会設立40周年記念論文」",
+        "en": "June 2026: Ryutaro Mori, Keno Harada, Shinnosuke Mizuno, Tadashi Onishi, Ilya Horiguchi, Kotaro Sakamoto, Kazuya Horibe, Takeshi Kojima, Yutaka Matsuo, Yusuke Iwasawa: \"Replicating Systems, Understanding Mechanisms: A Survey on Social Simulation with Large Language Model Agents\" Journal of the Japanese Society for Artificial Intelligence, Special Issue: 40th Anniversary of the Japanese Society for Artificial Intelligence"
       },
       {
         "ja": "2026/04: Michael Crosscombe, Ilya Horiguchi, Shigeto Dobata, Takashi Ikegami: 「Dwell Time Outperforms Social and Chemical Predictors of Behavioural Transitions in Ants」Entropy, 28(4), 451. https://doi.org/10.3390/e28040451",
@@ -223,6 +223,10 @@
 
   "awards": {
     "awards": [
+      {
+        "ja": "2026/06 人工知能学会 40周年記念論文賞 優秀論文賞",
+        "en": "June 2026: Received the JSAI 40th Anniversary Paper Award, Excellent Paper Award"
+      },
       {
         "ja": "2026 Unitree G1を動かすPhysical AIハッカソン Best Idea賞",
         "en": "2026: Received the Best Idea Award at the Physical AI Hackathon for Unitree G1"
