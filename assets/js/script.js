@@ -339,61 +339,62 @@ function updatePublications() {
   const publicationsData = contentData.publications;
   
   // Update domestic conferences
-  const domesticList = document.getElementById('domestic-list');
-  if (domesticList && publicationsData.domesticConferences) {
-    domesticList.innerHTML = '';
-    
-    publicationsData.domesticConferences.forEach((item, index) => {
-      const li = document.createElement('li');
-      li.className = 'publication-item';
-      
-      // Create text with underlined author name
-      let text = item[currentLang] || '';
-      text = createLinkedText(text, item, currentLang);
-      const highlightedText = text.replace(/Ilya Horiguchi|堀口\s?維里優/g, '<u>$&</u>');
-      
-      li.innerHTML = highlightedText;
-      domesticList.appendChild(li);
-    });
-  }
-  
+  renderPublicationList('domestic-list', publicationsData.domesticConferences);
+
   // Update international conferences
-  const internationalList = document.getElementById('international-list');
-  if (internationalList && publicationsData.internationalConferences) {
-    internationalList.innerHTML = '';
-    
-    publicationsData.internationalConferences.forEach((item, index) => {
-      const li = document.createElement('li');
-      li.className = 'publication-item';
-      
-      // Create text with underlined author name
-      let text = item[currentLang] || '';
-      text = createLinkedText(text, item, currentLang);
-      const highlightedText = text.replace(/Ilya Horiguchi|堀口\s?維里優/g, '<u>$&</u>');
-      
-      li.innerHTML = highlightedText;
-      internationalList.appendChild(li);
-    });
-  }
-  
+  renderPublicationList('international-list', publicationsData.internationalConferences);
+
   // Update journals
-  const journalsList = document.getElementById('journals-list');
-  if (journalsList && publicationsData.journals) {
-    journalsList.innerHTML = '';
-    
-    publicationsData.journals.forEach((item, index) => {
-      const li = document.createElement('li');
-      li.className = 'publication-item';
-      
-      // Create text with underlined author name
-      let text = item[currentLang] || '';
-      text = createLinkedText(text, item, currentLang);
-      const highlightedText = text.replace(/Ilya Horiguchi|堀口\s?維里優/g, '<u>$&</u>');
-      
-      li.innerHTML = highlightedText;
-      journalsList.appendChild(li);
-    });
+  renderPublicationList('journals-list', publicationsData.journals);
+}
+
+/**
+ * Render a list of publication entries into the given list element.
+ * @param {string} listId - The id of the <ol>/<ul> to fill.
+ * @param {Array<object>} items - Publication entries with ja/en text.
+ */
+function renderPublicationList(listId, items) {
+  const list = document.getElementById(listId);
+  if (!list || !items) {
+    return;
   }
+  list.innerHTML = '';
+
+  items.forEach(item => {
+    const li = document.createElement('li');
+    li.className = 'publication-item';
+    li.innerHTML = formatPublication(item, currentLang);
+    list.appendChild(li);
+  });
+}
+
+/**
+ * Build the HTML of a single publication entry: the DOI/article URL is pulled
+ * out of the text and shown as a badge, and the author's own name is underlined.
+ * @param {object} item - The publication entry.
+ * @param {string} lang - The current language ('ja' or 'en').
+ * @returns {string} - The entry as HTML.
+ */
+function formatPublication(item, lang) {
+  let text = createLinkedText(item[lang] || '', item, lang);
+
+  // A URL written at the end of the entry becomes the badge target
+  let url = item[`doi-${lang}`] || item.doi || '';
+  text = text.replace(/[\s(]*(https?:\/\/[^\s<>()]+)\)?\s*$/, (match, foundUrl) => {
+    if (!url) {
+      url = foundUrl;
+    }
+    return '';
+  });
+
+  text = text.replace(/Ilya Horiguchi|堀口\s?維里優/g, '<u>$&</u>');
+
+  if (url) {
+    const label = /(^|\/\/)(dx\.)?doi\.org\/|jstage\.jst\.go\.jp/.test(url) ? 'DOI' : 'Link';
+    text += ` <a class="doi-badge" href="${url}" target="_blank" rel="noopener noreferrer" title="${url}">${label}</a>`;
+  }
+
+  return text;
 }
 
 /**

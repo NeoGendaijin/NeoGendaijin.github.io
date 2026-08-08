@@ -210,6 +210,28 @@ main {
   font-size: 17px;
 }
 
+/* DOI badge shown at the end of a publication entry */
+.doi-badge {
+  display: inline-block;
+  margin-left: 4px;
+  padding: 0 8px;
+  border: 1px solid #0066cc;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.doi-badge:hover,
+.doi-badge:focus {
+  background-color: #0066cc;
+  color: #fff;
+  text-decoration: none;
+}
+
 /* Awards section styles */
 .award-item {
   margin-bottom: 10px;
